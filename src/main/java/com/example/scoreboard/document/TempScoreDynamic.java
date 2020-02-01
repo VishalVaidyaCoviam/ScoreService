@@ -4,10 +4,16 @@ import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document
+import java.util.Date;
+//import java.sql.Timestamp;
+
 @Data
-public class Static3 {
+@Document
+public class TempScoreDynamic {
     @Id
     private String userId;
+    private String quizId;
     private int score;
+    private String questionId;
+    private Date date;
 }
