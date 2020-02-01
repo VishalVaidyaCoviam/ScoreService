@@ -16,7 +16,6 @@ import java.util.Optional;
 public class ScoreOverallServiceImpl implements ScoreOverallService {
 
     @Autowired
-    private
     ScoreOverallRepository scoreOverallRepository;
 
     @Override

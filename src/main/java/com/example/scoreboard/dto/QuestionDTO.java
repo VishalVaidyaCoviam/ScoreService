@@ -9,7 +9,7 @@ import java.util.List;
 public class QuestionDTO {
     private String questionId;
     private String question;
-    private List<String> options = new ArrayList<String>();
+    private OptionsDTO options;
     private String answerType;
     private String questionType;
     private String binaryFilePath;
